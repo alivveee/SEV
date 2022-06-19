@@ -1,0 +1,214 @@
+/**navbar**/
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.shopicon {
+  position: fixed;
+  left: 0;
+  top: 230px;
+}
+
+.shopicon img {
+  height: 130px;
+}
+.navbar {
+  background-color: #24529f;
+}
+.navbar-brand img {
+  height: 40px;
+}
+
+.menu {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-right: 0;
+}
+.product {
+  margin-right: 0;
+}
+.navicons {
+  align-items: center;
+}
+.searchitm,
+.globleitm {
+  color: lightgray;
+}
+
+.searchitm :hover,
+.fa-magnifying-glass :hover,
+.fa-earth-africa :hover,
+.globleitm :hover {
+  color: whitesmoke;
+}
+/**navbar end**/
+
+/**hero image**/
+.heroImage {
+  background-image: url(https://drive.google.com/uc?id=1gZEOJUS5gcJ1aueAKQyynsrJ7TUjQofR);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 781px;
+}
+.herotext {
+  color: white;
+  position: absolute;
+  left: 40%;
+  bottom: 100px;
+  right: 10px;
+  font-size: 36px;
+  line-height: 1;
+}
+.subherotext {
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 680px;
+  right: 10px;
+  font-size: 16px;
+}
+/**about**/
+.aboutKiri {
+  background: #ececec;
+  display: grid;
+}
+.textabout {
+  text-align: right;
+  margin: auto;
+}
+
+.aboutKanan {
+  background: #ececec;
+  background-image: url(https://drive.google.com/uc?id=14yNEWp2g8RicHGu7hEBXuWsd-aEUBiK7);
+  background-size: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/**nutriment**/
+.nKiri {
+  background: #3864ac;
+  background-image: url(https://drive.google.com/uc?id=1Qar_5--TYN16NZfpmfkLqx9YhQd3iDg0);
+  background-size: 90%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nKanan {
+  background: #3864ac;
+  display: grid;
+}
+.textnutriment {
+  text-align: left;
+  color: white;
+  margin: auto;
+}
+.nBawah {
+  height: 650px;
+  background: #3864ac;
+  background-image: url(https://drive.google.com/uc?id=1rtlLECV23kjOm-IbW5R86B1XM9VcZfZl);
+  background-size: contain;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Find US */
+.findUs {
+  background-color: #ececec;
+  height: 320px;
+}
+.findUs h5 {
+  text-align: center;
+}
+.textfindus {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+}
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sosmed img {
+  height: 65px;
+  margin: 15px;
+}
+.shopnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+.footerKanan {
+  background: #24529f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logofooter {
+  text-align: center;
+}
+.logofooter img {
+  height: 80px;
+  padding: 10px;
+}
+.textfooter {
+  text-align: center;
+  color: white;
+  margin: 0 40px;
+}
+.footerKiri {
+  background: #24529f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* FORM SUBSCRIBE */
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-box {
+  padding: 5px;
+  border-radius: 5px;
+  background: #ececec;
+  width: 100%;
+}
+.form-box input {
+  font-size: 18px;
+  color: #000;
+  border: none;
+  outline: none;
+  background: #ececec;
+  width: 300px;
+}
+.form-box button {
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #24529f;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-box button :hover {
+  background: #3864ac;
+}
+.aboutKanan,
+.aboutKiri {
+  height: 635px;
+}
+.nKiri,
+.nKanan {
+  height: 420px;
+}
+.footerKanan,
+.footerKiri {
+  height: 380px;
+}
